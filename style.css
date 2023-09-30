@@ -1,107 +1,98 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 
-header{
-    text-align: center;
-    color: white;
+header {
+  text-align: center;
+  color: white;
 }
-header > h3{
-    margin:20px 0px;
-    font-size: 35px;
-    font-weight: 500;
-}
-
-
-.timer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(52,52,74);
-    height: 100px;
-    width:650px;
-    border-radius: 20px;
-    margin-inline: auto;
-     margin-top: 20px;
-    
-
-}
-.set{
-    font-size: 20px;
-    font-weight: 400;
+header > h3 {
+  margin: 20px 0px;
+  font-size: 35px;
+  font-weight: 500;
 }
 
-.timer > button{
-    background-color: yellow;
-    color: black;
-    padding: 5px 25px;
-    border: none;
-    border-radius: 20px;
+.timer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(52, 52, 74);
+  height: 100px;
+  width: 650px;
+  border-radius: 20px;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.set {
+  font-size: 20px;
+  font-weight: 400;
+}
 
+.timer > button {
+  background-color: yellow;
+  color: black;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 20px;
 }
-.timer > div{
-    background-color: transparent;
+.timer > div {
+  background-color: transparent;
 }
-.time{
-    display: flex;
-    padding-inline: 10px;
+.time {
+  display: flex;
+  padding-inline: 10px;
 }
-.time > p{
-    font-size: 30px;
-    background-color: transparent;
+.time > p {
+  font-size: 30px;
+  background-color: transparent;
 }
-.time > input{
-    width:90px;
-    height:50px;
-    background-color: transparent;
-    text-decoration: underline;
-    color: white;
-    font-size: 40px;
-    font-weight: 400;
-    margin: 0px 15px;
-    border: none;
-    outline: none;
-    text-align: center;
+.time > input {
+  width: 90px;
+  height: 50px;
+  background-color: transparent;
+  text-decoration: underline;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0px 15px;
+  border: none;
+  outline: none;
+  text-align: center;
 }
-.time-extra > input{
-    text-decoration: none;
+.time-extra > input {
+  text-decoration: none;
 }
-.time >input::placeholder{
-    color: white;
+.time > input::placeholder {
+  color: white;
 }
-main{
-    text-align: center;
-    color: white;
-    padding: 40px 0px;
+main {
+  text-align: center;
+  color: white;
+  padding: 40px 0px;
 }
-main > h3{
-    font-size: 20px;
-    font-weight: 400;
-    background-color: rgb(57,57,62);
-    margin: 30px 550px;
-    line-height: 40px;
-    border-radius: 20px;
-  
-   
+main > h3 {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgb(57, 57, 62);
+  margin: 30px 550px;
+  line-height: 40px;
+  border-radius: 20px;
 }
-.time-up{
-    color: #34344A;
-text-align: center;
-padding-left: 180px;
-font-size: 45px;
+.time-up {
+  color: #34344a;
+  text-align: center;
+  padding-left: 180px;
+  font-size: 45px;
 
-font-weight: 500;
-
+  font-weight: 500;
 }
-.btn-up{
- 
-   background-color: rgb(34, 34, 27);
-   color: black;
-   padding: 5px 25px;
-   border: none;
-   border-radius: 20px;
- 
+.btn-up {
+  background-color: rgb(34, 34, 27);
+  color: black;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 20px;
 }
